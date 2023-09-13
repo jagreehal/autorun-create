@@ -25,7 +25,7 @@ async function loadConfigFromFile(
 }
 
 async function main() {
-  const configFilePath = './config.json';
+  const configFilePath = './autorun.config.json';
   const config: AutoRunCreatorConfig | undefined =
     await loadConfigFromFile(configFilePath);
 

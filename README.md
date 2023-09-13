@@ -1,6 +1,6 @@
 # autorun-create
 
-`autorun-create` is a command-line tool for generating BrightScript code to create a Roku application's `autorun.brs` file. It simplifies the process of setting up an autorun script for your Roku channel or application.
+`autorun-create` is a command-line tool that simplifies the process of creating BrightScript code for an `autorun.brs` file for BrightSign players.
 
 ## Features
 
@@ -27,9 +27,9 @@ autorun-create
 
 ## Configuration
 
-You can customize the behavior of AutoRunCreator by creating a config.json file in root of your project directory.
+You can customize the behavior of AutoRunCreator by creating a `autorun.config.json` file in root of your project directory.
 
-Here's an example of a config.json file:
+Here's an example of a autorun.config.json file:
 
 ```json
 {
@@ -43,5 +43,4 @@ Here's an example of a config.json file:
 - enableLDWS (boolean): Enable or disable the Low-Density Screen Warning System (LDWS) feature. Default is false.
 - enableSSH (boolean): Enable or disable SSH (Secure Shell) for debugging. Default is false.
 - htmlWidgetIndexHtmlPath (string): Path to your index.html file. > If not provided, AutoRunCreator will search for index.html in your project directory.
-
 - outputDirectory (string): Specify the directory where the autorun.brs file should be saved. Default is the project directory.
